@@ -8,7 +8,7 @@ const optionsJson = {
 	"merge": MERGE
 }
 
-const option = TRACK;
+let option = TRACK;
 
 const [node, archive, botOrigin, botDestination, action] = process.argv;
 
